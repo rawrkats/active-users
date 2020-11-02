@@ -38,7 +38,10 @@
         "laravel": {
             "providers": [
                 "Rainwater\\Active\\ActiveServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Active": "Rainwater\\Active\\ActiveFacade"
+            }
         }
     },
     "minimum-stability": "dev"
